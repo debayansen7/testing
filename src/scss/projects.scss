@@ -1,0 +1,24 @@
+@import "var.scss";
+
+.projects{
+    // display:block;
+    margin: 0px auto;
+    h3{
+
+    }
+
+    .panel{
+        margin: 0px auto;
+        text-align: center;
+        min-width: 200px;
+        display: inline-block;
+        .panel-heading{
+            h3.panel-title{
+
+            }
+        }
+        .panel-body{
+
+        }
+    }
+}

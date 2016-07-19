@@ -1,0 +1,28 @@
+@import "var.scss";
+
+$gridClass : 'col-sm-3 col-xs-3';
+
+.artwork{
+    .artGallery{
+        // margin: 5px;
+        padding: 10px;
+        // background-color: #000;
+        .imgBox, .col-sm-3, .col-xs-3{
+            padding: 0px;
+            margin:0px;
+            .thumbnail{
+                padding: 0px;
+                margin:0px;
+                text-align: center;
+                // margin: 5px;
+                border-radius: 0px;
+                img{
+                    width: 100%;
+                    height: 200px;
+
+                }
+            }
+        }
+
+    }
+}

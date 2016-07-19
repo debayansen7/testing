@@ -1,0 +1,50 @@
+@import "var.scss";
+
+.contact{
+    margin:0px;
+    padding: 2%;
+    line-height: 1.5;
+    .email{
+        font-family: 'Great Vibes','Serif';
+        color:#fff;
+        font-size: 25px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .connections{
+        text-align: center;
+        display: inline-block;
+        margin: 0px;
+        div{
+            display: inline-block;
+            a{
+                padding: 0px 15px;
+                img{
+                    width: 30px;
+                    height: 30px;
+                    background-color: #fff;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+    }
+}
+.redBG{
+    background-color: #e74c3c;
+    text-align:center;
+    text-shadow:1px 1px 1px #000;
+    font-family: "Tahoma";
+    font-size:20px;
+    line-height: 1;
+    color:#fff;
+    &:hover{
+        // background-color: #c0392b;
+    }
+    a{
+        &:hover{
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+}

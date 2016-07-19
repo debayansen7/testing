@@ -1,0 +1,30 @@
+@import "var.scss";
+
+.intro{
+    width: 100%;
+    display: inline-flex;
+    .leftGlass{
+        text-align:center;
+        width: 50%;
+        border: 1px solid red;
+        height: 300px;
+        float: left;
+        &:hover{
+            width: 80%;
+            -webkit-transition: width 3s;
+            transition: width 3s;
+        }
+    }
+    .rightGlass{
+        text-align:center;
+        float: right;
+        width: 50%;
+        border: 1px solid red;
+        height: 300px;
+        &:hover{
+            width: 80%;
+            -webkit-transition: width 3s;
+            transition: width 3s;
+        }
+    }
+}

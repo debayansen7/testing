@@ -1,0 +1,25 @@
+{
+  "name": "debayansen.com",
+  "homepage": "https://github.com/debayansen7/testing",
+  "authors": [
+    "debayansen <debayan.s@emamifrankross.com>"
+  ],
+  "description": "Portfolio website for Deabyan Sen",
+  "main": "index.html",
+  "keywords": [
+    "deb",
+    "debayan",
+    "debayansen",
+    "debayan",
+    "sen"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

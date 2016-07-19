@@ -1,0 +1,102 @@
+@import url(external.css);
+
+
+
+section{
+    width: 100%;
+    /*background-color: yellow;*/
+    padding: 5px;
+}
+
+article{
+    width: 100%;
+    /*background-color: blue;*/
+    padding: 5px;
+    position: relative;
+    border:1px solid black;
+}
+ariticle h1 h3{
+  margin: 0px;
+
+}
+
+.jumbotron{
+    height:300px;
+}
+
+
+.redBG{
+    background-color: #e74c3c;
+    text-align:center;
+    text-shadow:1px 1px 1px #000;
+    font-family: "Tahoma";
+    font-size:20px;
+    line-height: 1;
+    color:#fff;
+    margin-bottom: 40px;
+}
+.redBG a:hover{
+    color:#fff;
+    /*color: #95a5a6;*/
+    text-decoration: none;
+}
+.redBG:hover{
+    background-color: #c0392b;
+    /*color:#bdc3c7;*/
+}
+
+.email{
+    font-family: 'Great Vibes','Serif';
+    color:#fff;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.connections{
+    text-align: center;
+    display: inline-block;
+}
+.connections li{
+    display: inline-block;
+}
+.connections li a{
+    padding: 0px 15px;
+}
+.connections li a img{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.footer{
+    font-family: "Tahoma";
+    padding: 5px;
+    text-align: center;
+    text-shadow:1px 2px 2px #fff;
+    color: #ffffff;
+    background-color: #1abc9c;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.footer > .container{
+    font-family: "Tahoma";
+
+}
+
+/*===============Media Queries here=================*/
+@media screen and (max-width: 320px) {
+    header, .navbar{
+        /*height: 70px;*/
+        padding-top: 5px;
+    }
+    .navbar-brand {
+        /*background-color: lightgreen;*/
+        padding-top: 20px;
+        padding-left: 9px ;
+        padding-right: 5px ;
+        font-size: 30px ;
+        letter-spacing: 7px;
+    }
+}

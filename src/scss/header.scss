@@ -1,0 +1,83 @@
+@import "var.scss";
+
+.header{
+    // width: 80%;
+    margin: 0px auto;
+    background-color:#fff;
+    padding: 5px;
+    height:80px;
+    h2{
+        color: $primary-color
+    }
+    .navbar{
+        margin-bottom: 10px;
+        background-color: #fff;
+        border: 1px solid #009ACD;
+        box-shadow: 0px 4px 20px #009ACD;
+        padding-top: 10px;
+        .navbar-toggle{
+            background-color:#fff;
+            border: 1px solid #009ACD;
+            &:focus, &:hover{
+                background-color:#fff;
+            }
+            .icon-bar {
+                background-color: #009ACD;
+                text-shadow: #2c3e50 1px 1px;
+            }
+        }
+        .navbar-header{
+            // width:100%;
+        }
+        .navbar-brand{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 30px;
+            font-family: $secondry-FontFamily;
+            color: #009ACD;
+            letter-spacing: 0px;
+            -webkit-transition: letter-spacing 2s;
+            transition: letter-spacing 2s;
+            &:hover{
+                color: #009ACD;
+                letter-spacing: 7px;
+                -webkit-transition: letter-spacing 2s;
+                transition: letter-spacing 2s;
+            }
+        }
+        .navbar-nav{
+            text-align: center;
+            background-color: #fff;
+            li{
+                a{
+                    font-family: $secondry-FontFamily, $primary-FontFamily;
+                    font-size: 22px;
+                    color: #009ACD;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    -webkit-transition: letter-spacing 2s;
+                    transition: letter-spacing 2s;
+                    &:hover, &:focus{
+                        color: #337ab7;
+                        text-decoration: underline;
+                        letter-spacing: 4px;
+                        -webkit-transition: text-decoration 5s, letter-spacing 2s;
+                        transition: text-decoration 5s, letter-spacing 2s;
+                    }
+                }
+            }
+        }
+        .navbar-inverse .navbar-collapse{
+            z-index: 999;
+        }
+
+    }
+    // .logo{
+    //     font-family: $secondry-FontFamily;
+    //     font-size: 30px;
+    //     background-color: #009ACD;
+    //     color: #009ACD;
+    //     padding: 5px;
+    //     line-height: 1.5;
+    // }
+}
